@@ -19,3 +19,18 @@ body {
   color: white;
   position: relative;
 }
+
+img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+  top: -50px;
+}
+
+.username {
+  font-size: 13px;
+  font-weight: 100;
+}
