@@ -1,6 +1,6 @@
 let btnE1 = document.getElementById("btn");
 let birthdayE1 = document.getElementById("birthday");
-let resultE1 = document.getElementById("result");
+let resultEl = document.getElementById("result");
 
 function calculateAge(){
   let birthdayValue = birthdayE1.value;
