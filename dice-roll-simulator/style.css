@@ -1,0 +1,18 @@
+body {
+  font-family: "open sans", sans-serif;
+  text-align: center;
+  margin: 0;
+}
+
+h1 {
+  font-size: 3rem;
+  margin-top: 2rem;
+}
+
+.dice {
+  font-size: 7rem;
+  margin: 5px;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+}
+
