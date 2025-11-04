@@ -41,3 +41,11 @@ function getDiceFace (rollResult) {
       return "";
   }
 }
+
+buttonE1.addEventListener("click", () => {
+  diceE1.classList.add("roll-animation");
+  setTimeout(() => {
+    diceE1.classList.remove("roll-animation");
+    rollDice();
+  }, 1000);
+} );
