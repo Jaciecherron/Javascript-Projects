@@ -14,3 +14,15 @@ function updateTimer() {
   timerE1.innerHTML = formattedTime;
 }
 
+function startTimer() {
+  interval = setInterval(() => {
+    timeLeft --;
+    updateTimer();
+    if (timeLeft === 0) {
+      clearInterval(interval);
+      alert("Time's up!");
+      timeLeft = 1500;
+      updateTimer();
+    }
+  }, 1000);
+}
