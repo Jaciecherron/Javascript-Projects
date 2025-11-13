@@ -26,3 +26,17 @@ function startTimer() {
     }
   }, 1000);
 }
+
+function stopTimer() {
+  clearInterval(interval);
+}
+
+function resetTimer() {
+  clearInterval(interval);
+  timeLeft = 1500;
+  updateTimer();
+}
+
+startE1.addEventListener("click", startTimer);
+stopE1.addEventListener("click", stopTimer);
+resetE1.addEventListener("click", resetTimer);
