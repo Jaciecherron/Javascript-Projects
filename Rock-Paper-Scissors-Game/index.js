@@ -15,3 +15,9 @@ buttons.forEach ((button) => {
     resultE1.textContent = result;
     });
 });
+
+function computerPlay() {
+  let choices = ["rock", "paper", "scissors"];
+  let randomChoice = Math.floor(Math.random() * choices.length );
+  return choices[randomChoice];
+}
