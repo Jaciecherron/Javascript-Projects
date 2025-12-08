@@ -9,6 +9,9 @@ body {
 img {
   display: block;
   width: 100%;
+  border-radius: 0.5rem;
+  object-fit: cover;
+  height: 30rem;
 }
 
 .section-center {
@@ -22,4 +25,25 @@ img {
 .image {
   margin-bottom: 2rem;
 }
+
+.tabs{
+  background: #ffe5e2;
+  border-radius: 0.5rem;
+  grid-template-rows: auto 1fr;
+}
+
+.btn-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.button:nth-child(1) {
+  border-top-left-radius: 0.5rem;
+}
+
+.button:nth-child(3) {
+  border-top-right-radius: 0.5rem;
+}
+
+
 
